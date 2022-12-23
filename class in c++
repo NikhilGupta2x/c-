@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+
+class emp
+{
+int n;
+
+public:
+void setdata(){
+    cout<<"enter the value of n = ";
+    cin>>n;
+}
+void getdata(){
+    cout<<"the value of n is = ";
+}
+};
+ int main(){
+    emp ep;
+    ep.setdata();
+    ep.getdata();
+    return 0;
+ }
